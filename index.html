@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Editor for computerNames.json</title>
+</head>
+<body>
+    <h1>JSON Editor for computerNames.json</h1>
+    <input type="file" id="fileInput" accept=".json">
+    <textarea id="jsonEditor" rows="20" cols="80" disabled></textarea>
+    <button id="saveButton" disabled>Save</button>
+
+    <script>
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file && file.name === 'computerNames.json') {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('jsonEditor').value = e.target.result;
+                    document.getElementById('jsonEditor').disabled = false;
+                    document.getElementById('saveButton').disabled = false;
+                };
+                reader.readAsText(file);
+            } else {
+                alert('Please upload a file named computerNames.json');
+                document.getElementById('fileInput').value = '';
+            }
+        });
+
+        document.getElementById('saveButton').addEventListener('click', function() {
+            const jsonContent = document.getElementById('jsonEditor').value;
+            try {
+                JSON.parse(jsonContent); // Validate JSON
+                const payload = {
+                    content: btoa(jsonContent),
+                    message: "Update computerNames.json"
+                };
+                fetch('https://your-backend-server.com/update-json', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert('File updated successfully in GitHub repository');
+                    } else {
+                        alert('Failed to update the file');
+                    }
+                });
+            } catch (e) {
+                alert('Invalid JSON format');
+            }
+        });
+    </script>
+</body>
+</html>
