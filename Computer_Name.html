@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Naming Convention Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <h1>Ask IT Links and Scripts</h1>
+</header>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Scripts.html">Scripts Page</a></li>
+            <li><a href="Service Portal Links.html">Service Portal Links Page</a></li>
+            <li><a href="Computer_Name.html">Computer Page</a></li>
+            <li><a href="Desktop_Zones.html">Desktop Zones Page</a></li>
+            <li><a href="EmployeeNum.html">EMPLOYEES & ASSIGNMENT Page</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="container">
+        <div id="button-container">
+            <button onclick="updateTable('ASKIT', 'ASKITD')">Central IT (ASK IT)</button>
+            <button onclick="updateTable('Surg', 'SURGD')">HSIS - Formerly Dept of Surg</button>
+            <button onclick="updateTable('1917', '1917D')">1917 IT Support RISC</button>
+            <button onclick="updateTable('Maintenance', 'MainD')">Building Maintenance</button>
+            <button onclick="updateTable('COLLAT', 'COLLATD')">COLLAT School of Biz</button>
+            <button onclick="updateTable('HSISID', 'HSISIDD')">HSIS Identity Mgmt</button>
+            <button onclick="updateTable('Optometry','OptoD')">Optometry</button>
+            <button onclick="updateTable('SOD', 'SODD')">School of Denistry (SDBIT)</button>
+            <button onclick="updateTable('WBHM', 'WBHMD')">WBHM</button>
+            <button onclick="updateTable('AOC', 'AOCD')">Alabama Organ Center</button>
+            <button onclick="updateTable('Callahan', 'CallahanD')">Callahan Eye Hosp</button>
+            <button onclick="updateTable('Digital', 'DigitalD')">Digital Strategy</button>
+            <button onclick="updateTable('HSISAsset', 'HSISAssetD')">HSIS Asset Management</button>
+            <button onclick="updateTable('Huntsville', 'HuntsvilleD')">Huntsville IT (HSV)</button>
+            <button onclick="updateTable('Path', 'PathD')">Pathology IT</button>
+            <button onclick="updateTable('SOE', 'SOED')">School of Engineering (SOE)</button>
+            <button onclick="updateTable('Anesthesia', 'AnesthesiaD')">Acesthesia</button>
+            <button onclick="updateTable('CCTSF','CCTSFD')">Cancer Center (CCTSF IT)</button>
+            <button onclick="updateTable('DOM','DOMD')">DOM - Dept. of Medicine</button>
+            <button onclick="updateTable('HSISBA','HSISBAD')">HSIS Business Apps</button>
+            <button onclick="updateTable('ICO','ICOD')">Institute for Cancer Outcomes</button>
+            <button onclick="updateTable('PEDS','PEDSD')">PEDS IT</button>
+            <button onclick="updateTable('MEIS','MEISD')">School of Medicine (MEIS)</button>
+            <button onclick="updateTable('AV','AVD')">AV</button>
+            <button onclick="updateTable('CASIT','CASITD')">CASIT</button>
+            <button onclick="updateTable('DOPM','DOPMD')">DOPM - Preventive Med</button>
+            <button onclick="updateTable('HSISHD', 'HSISHDD')">HSIS Help Desk</button>
+            <button onclick="updateTable('Neuro', 'NeuroD')">Neurobiology</button>
+            <button onclick="updateTable('Physical','PhysicalD')">Physical Med & Rehab</button>
+            <button onclick="updateTable('TvRepair', 'TvD')">UAB TV Repair</button>
+            <button onclick="updateTable('Biochem', 'BiochemD')">Biochem & Molecular</button>
+            <button onclick="updateTable('Facilities','FacilitiesD')">Facilities IT</button>
+            <button onclick="updateTable('HSISSYS','HSISSYSD')">HSIS Help Desk (SysAdmins)</button>
+            <button onclick="updateTable('OBGYN','OBGYND')">OB/GYN IT</button>
+            <button onclick="updateTable('RepairComm','RepairCommD')">RepairComm Backline</button>
+            <button onclick="updateTable('Viva','VivaD')">Viva Health IT</button>
+        </div>
+
+        <h2>Computer Names</h2>
+
+        <div class="table-container">
+            <table id="naming-convention-table">
+                <thead>
+                    <tr>
+                        <th>Computer Names</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table content will be inserted here -->
+                    <th>Contacts</th>
+                </tbody>
+            </table>
+        </div>
+        <h2>Department Contacts</h2>
+        <div class="table-container">
+            <table id="department-contact-table">
+                <thead>
+                    <tr>
+                        <th>Contacts</th>
+                        <th>Contact Email</th>
+                        <th>Dept. Phone</th>
+                        <th>Distribution Group</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table content will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="changeName.js"></script>
+</body>
+</html>

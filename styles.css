@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff; /* White background for container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    border-radius: 10px; /* Rounded corners for container */
+    padding: 20px; /* Padding inside container */
+}
+
+#button-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    background-color: #252e57; 
+    color: white;
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+button:focus {
+    background-color: #5c8192;
+    border-radius: 0%;
+    border: 2px solid black;
+}
+
+#table-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #ffffff; /* White background for table */
+}
+
+table td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #e9ecef; /* Light grey background for table cells */
+    color: #333333; /* Dark grey text color */
+    font-weight: bold;
+    font-size: 13px;
+}
+
+table td:nth-child(even) {
+    background-color: #f8f9fa; /* Slightly lighter grey for even cells */
+}
+#department-contact-table td{
+text-align: left;
+}
+
+#h2-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 15px;
+}
