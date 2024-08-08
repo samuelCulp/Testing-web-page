@@ -70,13 +70,6 @@ function handleSearch() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
     let foundMatch = false;
 
-    // Hide all buttons initially
-    const buttonsContainer = document.getElementById('buttons-container');
-    const buttons = buttonsContainer.getElementsByTagName('button');
-    for (let button of buttons) {
-        button.style.display = 'none';
-    }
-
     // Search through departments and naming conventions
     for (let department in data) {
         const departmentData = data[department];
@@ -113,11 +106,10 @@ function handleSearch() {
 
 function showAndHighlight(categoryOrDepartment, tableType, searchTerm, nameIndex = null) {
     // Show the corresponding button
-    const buttonsContainer = document.getElementById('buttons-container');
+    const buttonsContainer = document.getElementById('button-container');
     const buttons = Array.from(buttonsContainer.getElementsByTagName('button'));
     const button = buttons.find(btn => btn.getAttribute('onclick').includes(categoryOrDepartment));
     if (button) {
-        button.style.display = ''; // Make the button visible
         button.click(); // Trigger the button click to update the table
     }
 
@@ -131,12 +123,12 @@ function showAndHighlight(categoryOrDepartment, tableType, searchTerm, nameIndex
     }, 100); // Timeout to allow table to update
 }
 
-function highlightNamingConventionCell(nameIndex, searchTerm) {
+function highlightNamingConventionCell(nameIndex) {
     const table = document.getElementById('naming-convention-table').querySelector('tbody');
     const cells = Array.from(table.getElementsByTagName('td'));
 
     const cellToHighlight = cells[nameIndex];
-    if (cellToHighlight && cellToHighlight.textContent.toLowerCase().includes(searchTerm)) {
+    if (cellToHighlight) {
         cellToHighlight.classList.add('highlight');
     }
 }
@@ -153,3 +145,4 @@ function highlightContactTableCell(searchTerm) {
         });
     }
 }
+
