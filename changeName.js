@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function updateTable(category, department) {
     updateNamingConventionTable(category);
     updateDepartmentContactTable(department);
+    displayCurrentTable(category, department); // Update the display with current table names
 }
 
 function updateNamingConventionTable(category) {
@@ -83,6 +84,7 @@ function handleSearch() {
                 row.group.toLowerCase().includes(searchTerm)
             ) {
                 showAndHighlight(department, 'contact-table', searchTerm);
+                displaySearchResult(department, 'Contact Information'); // Display search result
                 foundMatch = true;
             }
         });
@@ -93,6 +95,7 @@ function handleSearch() {
             names.forEach((name, index) => {
                 if (name.toLowerCase().includes(searchTerm)) {
                     showAndHighlight(category, 'naming-convention-table', searchTerm, index);
+                    displaySearchResult(category, 'Naming Convention'); // Display search result
                     foundMatch = true;
                 }
             });
@@ -101,6 +104,7 @@ function handleSearch() {
 
     if (!foundMatch) {
         alert('No matches found.');
+        document.getElementById('search-result').textContent = ''; // Clear previous search result if no match is found
     }
 }
 
@@ -145,4 +149,15 @@ function highlightContactTableCell(searchTerm) {
         });
     }
 }
+
+function displayCurrentTable(category, department) {
+    const resultElement = document.getElementById('search-result');
+    resultElement.textContent = `Displaying: Naming Convention - ${category} | Department Contacts - ${department}`;
+}
+
+function displaySearchResult(categoryOrDepartment, tableType) {
+    const resultElement = document.getElementById('search-result');
+    resultElement.textContent = `Search Result: Found in ${tableType} for ${categoryOrDepartment}`;
+}
+
 
