@@ -84,7 +84,8 @@ function handleSearch() {
                 row.group.toLowerCase().includes(searchTerm)
             ) {
                 showAndHighlight(department, 'contact-table', searchTerm);
-                displaySearchResult(department, 'Contact Information'); // Display search result
+                const buttonName = getButtonNameByDepartment(department); 
+                displaySearchResult(buttonName, 'Contact Information');
                 foundMatch = true;
             }
         });
@@ -95,7 +96,8 @@ function handleSearch() {
             names.forEach((name, index) => {
                 if (name.toLowerCase().includes(searchTerm)) {
                     showAndHighlight(category, 'naming-convention-table', searchTerm, index);
-                    displaySearchResult(category, 'Naming Convention'); // Display search result
+                    const buttonName = getButtonNameByCategory(category);
+                    displaySearchResult(buttonName, 'Naming Convention');
                     foundMatch = true;
                 }
             });
@@ -155,9 +157,32 @@ function displayCurrentTable(category, department) {
     resultElement.textContent = `Displaying: Naming Convention - ${category} | Department Contacts - ${department}`;
 }
 
-function displaySearchResult(categoryOrDepartment, tableType) {
+function displaySearchResult(buttonName, tableType) {
     const resultElement = document.getElementById('search-result');
-    resultElement.textContent = `Search Result: Found in ${tableType} for ${categoryOrDepartment}`;
+    resultElement.textContent = `Search Result: Found in ${tableType} for ${buttonName}`;
 }
 
+function getButtonNameByDepartment(department) {
+    // Map your department codes to button names here
+    const departmentMap = {
+        'ASKITD': 'Central IT (ASK IT)',
+        'SURGD': 'HSIS - Formerly Dept of Surg',
+        '1917D': '1917 IT Support RISC',
+        // Add other department mappings here...
+    };
+
+    return departmentMap[department] || department;
+}
+
+function getButtonNameByCategory(category) {
+    // Map your categories to button names here
+    const categoryMap = {
+        'ASKIT': 'Central IT (ASK IT)',
+        'Surg': 'HSIS - Formerly Dept of Surg',
+        '1917': '1917 IT Support RISC',
+        // Add other category mappings here...
+    };
+
+    return categoryMap[category] || category;
+}
 
