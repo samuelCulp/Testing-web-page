@@ -39,6 +39,7 @@ function updateNamingConventionTable(category) {
         for (let j = 0; j < columns; j++) {
             const td = document.createElement('td');
             td.textContent = names[nameIndex] || '';
+            td.classList.remove('highlight'); // Remove previous highlight
             tr.appendChild(td);
             nameIndex++;
         }
@@ -67,32 +68,88 @@ function updateDepartmentContactTable(department) {
 
 function handleSearch() {
     const searchTerm = document.getElementById('search-input').value.toLowerCase();
-    const buttonsContainer = document.getElementById('buttons-container');
-    const buttons = buttonsContainer.getElementsByTagName('button');
+    let foundMatch = false;
 
     // Hide all buttons initially
+    const buttonsContainer = document.getElementById('buttons-container');
+    const buttons = buttonsContainer.getElementsByTagName('button');
     for (let button of buttons) {
         button.style.display = 'none';
     }
 
-    // Search through departments and show relevant buttons
+    // Search through departments and naming conventions
     for (let department in data) {
         const departmentData = data[department];
-        const isMatch = departmentData.some(row => {
-            return (
+
+        // Check department contact information
+        departmentData.forEach(row => {
+            if (
                 row.contact.toLowerCase().includes(searchTerm) ||
                 row.email.toLowerCase().includes(searchTerm) ||
                 row.phone.toLowerCase().includes(searchTerm) ||
                 row.group.toLowerCase().includes(searchTerm)
-            );
+            ) {
+                showAndHighlight(department, 'contact-table', searchTerm);
+                foundMatch = true;
+            }
         });
 
-        if (isMatch) {
-            // Show the corresponding button if there's a match
-            const button = Array.from(buttons).find(btn => btn.getAttribute('onclick').includes(department));
-            if (button) {
-                button.style.display = '';
-            }
+        // Check naming conventions
+        for (let category in namingConventions) {
+            const names = namingConventions[category];
+            names.forEach((name, index) => {
+                if (name.toLowerCase().includes(searchTerm)) {
+                    showAndHighlight(category, 'naming-convention-table', searchTerm, index);
+                    foundMatch = true;
+                }
+            });
         }
+    }
+
+    if (!foundMatch) {
+        alert('No matches found.');
+    }
+}
+
+function showAndHighlight(categoryOrDepartment, tableType, searchTerm, nameIndex = null) {
+    // Show the corresponding button
+    const buttonsContainer = document.getElementById('buttons-container');
+    const buttons = Array.from(buttonsContainer.getElementsByTagName('button'));
+    const button = buttons.find(btn => btn.getAttribute('onclick').includes(categoryOrDepartment));
+    if (button) {
+        button.style.display = ''; // Make the button visible
+        button.click(); // Trigger the button click to update the table
+    }
+
+    // Highlight the matching cell
+    setTimeout(() => {
+        if (tableType === 'naming-convention-table' && nameIndex !== null) {
+            highlightNamingConventionCell(nameIndex, searchTerm);
+        } else if (tableType === 'contact-table') {
+            highlightContactTableCell(searchTerm);
+        }
+    }, 100); // Timeout to allow table to update
+}
+
+function highlightNamingConventionCell(nameIndex, searchTerm) {
+    const table = document.getElementById('naming-convention-table').querySelector('tbody');
+    const cells = Array.from(table.getElementsByTagName('td'));
+
+    const cellToHighlight = cells[nameIndex];
+    if (cellToHighlight && cellToHighlight.textContent.toLowerCase().includes(searchTerm)) {
+        cellToHighlight.classList.add('highlight');
+    }
+}
+
+function highlightContactTableCell(searchTerm) {
+    const table = document.getElementById('department-contact-table').querySelector('tbody');
+    const rows = table.getElementsByTagName('tr');
+
+    for (let row of rows) {
+        Array.from(row.getElementsByTagName('td')).forEach(td => {
+            if (td.textContent.toLowerCase().includes(searchTerm)) {
+                td.classList.add('highlight');
+            }
+        });
     }
 }
