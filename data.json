@@ -1,165 +1,436 @@
 {
-"data": {
-        "ASKITD": [
-            { "contact": " ", "email": " ", "phone": "(205) 996-5555", "group": "AskIT@uab.edu" }
-        ],
-        "SURGD": [
-            { "contact": "Demarkio Vincent | 934-6380", "email": "demarkio@uab.edu", "phone": "", "group": "Surgeryit@uabmc.edu" }
-        ],
-        "1917D": [
-            { "contact": "Alfredo Guzman", "email": "aguzman@uabmc.edu", "phone": "934-1212", "group": "" },
-            { "contact": "Boniface Sindala", "email": "bsindala@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Micheal Henderson", "email": "reimann@uab.edu", "phone": "", "group": "" }
-        ],
-        "MainD": [
-            { "contact": "Johnny Rottenbery | Heritage Hall", "email": " ", "phone": "", "group": "" },
-            { "contact": "Kevin | Chemistry Building", "email": " ", "phone": "", "group": "" }
-        ],
-        "COLLATD": [
-            { "contact": "David Childers | 975-8872", "email": "childer@uab.edu", "phone": "", "group": "" },
-            { "contact": "Phillip Cotton | 975-8918", "email": "fly@uab.edu", "phone": "", "group": "" }
-        ],
-        "HSISIDD": [
-            { "contact": "Brian Day", "email": "bmday@uabmc.edu", "phone": "", "group": "iamteam@uabmc.edu" }
-        ],
-        "OptoD": [
-            { "contact": "Chris Boutwell | 934-6567 | Dir Administrative Ops", "email": "cboutwel@uab.edu", "phone": "", "group": "" },
-            { "contact": "Harold 'Joey' Jones | 934-2833 /cell: (205) 563-7609", "email": "hjjones@uab.edu", "phone": "", "group": "" }
-        ],
-        "SODD": [
-            { "contact": "Chris Walder | 975-7491", "email": "cklw@uab.edu", "phone": "", "group": "" },
-            { "contact": "Chris Campbell | 6-5417", "email": "jccampbe2001@uab.edu", "phone": "", "group": "" },
-            { "contact": "Joseph Lovetto | 934-5236", "email": "jlovetto@uab.edu", "phone": "", "group": "" },
-            { "contact": "Cedric Maddox | 975-3235", "email": "maddoxcl@uab.edu", "phone": "", "group": "" }
-        ],
-        "WBHMD": [
-            { "contact": "Darrell McCalla", "email": "dmcalla@uab.edu", "phone": "934-9246", "group": "" }
-        ],
-        "AOCD": [
-            { "contact": "Candance Barnes, IS Spec III | 731-9200", "email": "candancebarnes@alabamaorgancenter.org", "phone": "", "group": "" }
-        ],
-        "CallahanD": [
-            { "contact": "Chris Reid | (205) 325-8690 **ADOBE BUYER**", "email": "cgreid@uabmc.edu", "phone": "325-8100", "group": "ophhelp@uab.edu" },
-            { "contact": "Erron McKinney | (205) 325-8336", "email": "emckinney@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jack Rawls | (205) 327-6863 | **ADOBE BUYER**", "email": "jrawls@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "James Wesson | (205) 325-8336 | **ADOBE BUYER**", "email": "jwesson@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Lacinda Riesland, Exec Dir IT Infrastruct", "email": "lriesland@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Theron Gobble", "email": "tgobble@uabmc.edu", "phone": "", "group": "" }
-        ],
-        "DigitalD": [
-            { "contact": "Chris Humphries | 934-2374", "email": "chrishumphries@uab.edu", "phone": "", "group": "" }
-        ],
-        "HSISAssetD": [
-            { "contact": "Annette Jackson | **ADOBE BUYER**", "email": "annettejackson@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Geogia Cashion | 934-9234 | **ADOBE BUYER**", "email": "gcashion@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Lisa Shelton | **ADOBE BUYER**", "email": "lhshelton@uabmc.edu", "phone": "", "group": "" }
-        ],
-        "HuntsvilleD": [
-            { "contact": "James Baker (manager)", "email": " ", "phone": "(256) 551-4482, (256) 824-3333", "group": "hsvhelp@uabmc.edu or helpdesk@uah.edu" },
-            { "contact": "Jennifer Childress", "email": " ", "phone": "", "group": "" },
-            { "contact": "Valorie Williams Spvsr - Material Mgmt | (256) 551-4525", "email": " ", "phone": "", "group": "" }
-        ],
-        "PathD": [
-            { "contact": "Israel Ponce-Rodriguez | 934-6610 | **ADOBE BUYER**", "email": "israel@uab.edu", "phone": "", "group": "pathis@uab.edu" }
-        ],
-        "SOED": [
-            { "contact": "Jeremy Hicks | 934-8455", "email": "jhicks07@uab.edu", "phone": "", "group": "" },
-            { "contact": "Tommy Foley", "email": "tfoley@uab.edu", "phone": "", "group": "" }
-        ],
-        "AnesthesiaD": [
-            { "contact": "Noah Crum, IS Spec II | 975-2919 or 934-9650", "email": "ncrum@uabmc.edu", "phone": "", "group": "" }
-        ],
-        "CCTSFD": [
-            { "contact": "Alan Cook, IT Director", "email": "acook40@uab.edu", "phone": "975-8240", "group": "cctsf@uab.edu" },
-            { "contact": "Elbert Jenkins, Consultant", "email": "elj@uab.edu", "phone": "", "group": "" },
-            { "contact": "Wesley Pate", "email": "wpate@uab.edu", "phone": "", "group": "" }
-        ],
-        "DOMD": [
-            { "contact": "Ahmad Khan", "email": "akkhan@uabmc.edu", "phone": "975-4357", "group": "DOMHelp@uab.edu" },
-            { "contact": "Bryan Duke | 975-8662 | (205)-601-1607", "email": "bryanduke@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Cameron Davis", "email": "cameronrdavis@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Craig Mosley", "email": "crmosley@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Derek Gettis | **ADOBE BUYER**", "email": "dgettis@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Hunter James Vines", "email": "hunterjvines@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jacob Ellis", "email": "jahkusbedell@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jahkus Bedell", "email": "jaylenking@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jamel Hardware", "email": "jellis@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jaylen King | **ADOBE BUYER**", "email": "jhardware@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jenicka Thomas", "email": "jenickathomas@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jennifer Bess | **ADOBE BUYER**", "email": "jbess@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Joe Williams", "email": "jrwii@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "John Paul Kelly | **ADOBE BUYER**", "email": "jpkelly@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Kevin Simmons | **ADOBE BUYER**", "email": "ksimmons@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Kunal Chopra", "email": "kunal@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Lauren Huggins", "email": "lshuggins@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Mark Lee", "email": "mrlee@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Mike Reimann", "email": "mreimann@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Natasha Dismuke", "email": "ndismuke@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Olando Wyatt", "email": "owyatt@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Ryan Franklin", "email": "rfranklin@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Samuel Holt | **ADOBE BUYER**", "email": "sholt@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Taylor Sears | **ADOBE BUYER**", "email": "taylorsears@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Vincent Uyanwah", "email": "vincentuyanwah@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Wanda Brooks", "email": "wandabrooks@uabmc.edu", "phone": "", "group": "" }
-        ],
-        "OBGYN": [
-            { "contact": "Arshad Noor", "email": "arshadnoor@uabmc.edu", "phone": "975-7685", "group": "obgynsupport@uabmc.edu" }
-        ],
-        "HSISD": [
-            { "contact": "Arthur Palmer | **ADOBE BUYER**", "email": "apalmer@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Avery Wilson", "email": "averywilson@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Bonnie Lee", "email": "bonnielee@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Brett Carter", "email": "bcarter@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Brian Nickel | **ADOBE BUYER**", "email": "bnickel@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Byron Glover", "email": "byronglover@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Carlos Logan", "email": "carloslogan@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Chad Autry", "email": "chadautry@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Chad Beckham", "email": "chadbeckham@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Chris Autrey", "email": "chrisautrey@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Christopher Caldwell", "email": "christophercaldwell@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Corey Dickerson", "email": "coreydickerson@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "David Black", "email": "davidblack@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "David Childers | **ADOBE BUYER**", "email": "davidchilders@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Dennis Weaver", "email": "dennisweaver@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Devon Singleton", "email": "devonsingleton@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Donta Pittman | **ADOBE BUYER**", "email": "dontapittman@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Erick Mccollum", "email": "erickmccollum@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Eric Baird", "email": "ericbaird@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Eugene Page", "email": "eugenepage@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Gage Cranford", "email": "gagecranford@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Hussein Othman", "email": "husseinothman@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "James Pittman", "email": "jamespittman@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jarred Morton", "email": "jarredmorton@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jaymes Crider | **ADOBE BUYER**", "email": "jaymescrider@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jeffery Jackson | **ADOBE BUYER**", "email": "jefferyjackson@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jemell Frison", "email": "jemellfrison@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jennifer Mahoney", "email": "jennifermahoney@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jonathan Glover", "email": "jonathanglover@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Jonathan Jefferies", "email": "jonathanjefferies@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Joshua Bostic | **ADOBE BUYER**", "email": "joshuabostic@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Keith Edwards", "email": "keithedwards@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Keith Fincher", "email": "keithfincher@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Kevin O'Connor", "email": "kevinoconnor@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Kevin Parks", "email": "kevinparks@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Kimberly Jones", "email": "kimberlyjones@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Lawrence Richardson", "email": "lawrencerichardson@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Louie Evans", "email": "louieevans@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Mark Green | **ADOBE BUYER**", "email": "markgreen@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Matthew Dunlap", "email": "matthewdunlap@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Michael Kim", "email": "michaelkim@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Michael Ray", "email": "michaelray@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Michael Sinclair", "email": "michaelsinclair@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Michelle Bennet", "email": "michellebennet@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Nicole Watford", "email": "nicolewatford@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Reginald Crawford", "email": "reginaldcrawford@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Ryan Winstead", "email": "ryanwinstead@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Sam Broome | **ADOBE BUYER**", "email": "sambroome@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Sean Briggs", "email": "seanbriggs@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Tim Weaver", "email": "timweaver@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Travis Johnson", "email": "travisjohnson@uabmc.edu", "phone": "", "group": "" },
-            { "contact": "Walter Slaten", "email": "walterslaten@uabmc.edu", "phone": "", "group": "" }
-        ]
-    },
+  "data": {
+    "ASKITD": [
+      {
+        "contact": " ",
+        "email": " ",
+        "phone": "(205) 996-5555",
+        "group": "AskIT@uab.edu"
+      }
+    ],
+    "SURGD": [
+      {
+        "contact": "Demarkio Vincent | 934-6380",
+        "email": "demarkio@uab.edu",
+        "phone": "",
+        "group": "Surgeryit@uabmc.edu"
+      }
+    ],
+    "1917D": [
+      {
+        "contact": "Alfredo Guzman",
+        "email": "aguzman@uabmc.edu",
+        "phone": "934-1212",
+        "group": ""
+      },
+      {
+        "contact": "Boniface Sindala",
+        "email": "bsindala@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Micheal Henderson",
+        "email": "reimann@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "MainD": [
+      {
+        "contact": "Johnny Rottenbery | Heritage Hall",
+        "email": " ",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Kevin | Chemistry Building",
+        "email": " ",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "COLLATD": [
+      {
+        "contact": "David Childers | 975-8872",
+        "email": "childer@uab.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Phillip Cotton | 975-8918",
+        "email": "fly@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "HSISIDD": [
+      {
+        "contact": "Brian Day",
+        "email": "bmday@uabmc.edu",
+        "phone": "",
+        "group": "iamteam@uabmc.edu"
+      }
+    ],
+    "OptoD": [
+      {
+        "contact": "Chris Boutwell | 934-6567 | Dir Administrative Ops",
+        "email": "cboutwel@uab.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Harold 'Joey' Jones | 934-2833 /cell: (205) 563-7609",
+        "email": "hjjones@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "SODD": [
+      {
+        "contact": "Chris Walder | 975-7491",
+        "email": "cklw@uab.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Chris Campbell | 6-5417",
+        "email": "jccampbe2001@uab.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Joseph Lovetto | 934-5236",
+        "email": "jlovetto@uab.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Cedric Maddox | 975-3235",
+        "email": "maddoxcl@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "WBHMD": [
+      {
+        "contact": "Darrell McCalla",
+        "email": "dmcalla@uab.edu",
+        "phone": "934-9246",
+        "group": ""
+      }
+    ],
+    "AOCD": [
+      {
+        "contact": "Candance Barnes, IS Spec III | 731-9200",
+        "email": "candancebarnes@alabamaorgancenter.org",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "CallahanD": [
+      {
+        "contact": "Chris Reid | (205) 325-8690 **ADOBE BUYER**",
+        "email": "cgreid@uabmc.edu",
+        "phone": "325-8100",
+        "group": "ophhelp@uab.edu"
+      },
+      {
+        "contact": "Erron McKinney | (205) 325-8336",
+        "email": "emckinney@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Jack Rawls | (205) 327-6863 | **ADOBE BUYER**",
+        "email": "jrawls@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "James Wesson | (205) 325-8336 | **ADOBE BUYER**",
+        "email": "jwesson@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Lacinda Riesland, Exec Dir IT Infrastruct",
+        "email": "lriesland@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Theron Gobble",
+        "email": "tgobble@uabmc.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "DigitalD": [
+      {
+        "contact": "Chris Humphries | 934-2374",
+        "email": "chrishumphries@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "HSISAssetD": [
+      {
+        "contact": "Annette Jackson | **ADOBE BUYER**",
+        "email": "annettejackson@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Geogia Cashion | 934-9234 | **ADOBE BUYER**",
+        "email": "gcashion@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Lisa Shelton | **ADOBE BUYER**",
+        "email": "lhshelton@uabmc.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "HuntsvilleD": [
+      {
+        "contact": "James Baker (manager)",
+        "email": " ",
+        "phone": "(256) 551-4482, (256) 824-3333",
+        "group": "hsvhelp@uabmc.edu or helpdesk@uah.edu"
+      },
+      {
+        "contact": "Jennifer Childress",
+        "email": " ",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Valorie Williams Spvsr - Material Mgmt | (256) 551-4525",
+        "email": " ",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "PathD": [
+      {
+        "contact": "Israel Ponce-Rodriguez | 934-6610 | **ADOBE BUYER**",
+        "email": "israel@uab.edu",
+        "phone": "",
+        "group": "pathis@uab.edu"
+      }
+    ],
+    "SOED": [
+      {
+        "contact": "Jeremy Hicks | 934-8455",
+        "email": "jhicks07@uab.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Tommy Foley",
+        "email": "tfoley@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "AnesthesiaD": [
+      {
+        "contact": "Noah Crum, IS Spec II | 975-2919 or 934-9650",
+        "email": "ncrum@uabmc.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "CCTSFD": [
+      {
+        "contact": "Alan Cook, IT Director",
+        "email": "acook40@uab.edu",
+        "phone": "975-8240",
+        "group": "cctsf@uab.edu"
+      },
+      {
+        "contact": "Elbert Jenkins, Consultant",
+        "email": "elj@uab.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Wesley Pate",
+        "email": "wpate@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "DOMD": [
+      {
+        "contact": "Ahmad Khan",
+        "email": "akkhan@uabmc.edu",
+        "phone": "975-4357",
+        "group": "DOMHelp@uab.edu"
+      },
+      {
+        "contact": "Bryan Duke | 975-8662 | (205)-601-1607",
+        "email": "bryanduke@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Cameron Davis",
+        "email": "cameronrdavis@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Craig Mosley",
+        "email": "crmosley@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Derek Gettis | **ADOBE BUYER**",
+        "email": "dgettis@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Justin Barnett",
+        "email": "jwbarnett@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Matt Wilkins | **ADOBE BUYER**",
+        "email": "mwilkins@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Patrick Staub | **ADOBE BUYER**",
+        "email": "staubp@uabmc.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "CampusD": [
+      {
+        "contact": "John Brandt | 934-7330",
+        "email": "jmbrandt@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "DCMADMID": [
+      {
+        "contact": "Dustin Cooper | 934-7953",
+        "email": "dcooper@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "HSISD": [
+      {
+        "contact": "Bryan Kindred",
+        "email": "bkindred@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Burdet Williams | 975-5871 | **ADOBE BUYER**",
+        "email": "bwilliams@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Jeff Lewis | **ADOBE BUYER**",
+        "email": "jefflewis@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Scott Rose | **ADOBE BUYER**",
+        "email": "rose@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Shelby Workman | **ADOBE BUYER**",
+        "email": "workman@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "Wayne Dennis | **ADOBE BUYER**",
+        "email": "wdennis@uabmc.edu",
+        "phone": "",
+        "group": ""
+      },
+      {
+        "contact": "William Adams | **ADOBE BUYER**",
+        "email": "wbadams@uabmc.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "OIT Field SupportD": [
+      {
+        "contact": "Isaac Chappell | **ADOBE BUYER**",
+        "email": "isaac@uab.edu",
+        "phone": "996-9999",
+        "group": ""
+      },
+      {
+        "contact": "John Roberts | **ADOBE BUYER**",
+        "email": "jmroberts@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "SHPD": [
+      {
+        "contact": "Jerome Thomas | 934-5975",
+        "email": "jerry65@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "UABPD": [
+      {
+        "contact": "Jerome Taylor | 934-6867",
+        "email": "jetaylor@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "URecD": [
+      {
+        "contact": "Joe Daniel | 975-3879",
+        "email": "jldaniel@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "UniversityRelationsD": [
+      {
+        "contact": "Josh Nelson | 975-4418",
+        "email": "jcnelson@uab.edu",
+        "phone": "",
+        "group": ""
+      }
+    ],
+    "NeurobiologyD": [
+      {
+        "contact": "Tim Ferguson | 975-8697",
+        "email": "ferguson@uabmc.edu",
+        "phone": "",
+        "group": ""
+      }
+    ]
+  },
+
+
     "namingConventions": {
         "ASKIT": ["AQA-", "ARENA-", "ARP-", "ASC-", "ASKIT-", "ATH-", "AUDIT-", "AV-", "ALC-", "BFS-", "BNVF-", "CIRB-", "COMM-", "FA-", "FINAD-", "GEN-", "GRAD-", "HRM-", "IACUC-", "ID-", "INTO-", "IRB-", "ITBFS-", "ITDS-", "ITIS-", "LEGAL-", "LHL-", "LIB-", "LRC-", "OSP-", "PAGE-", "PROV-", "PSEC-", "RCOMP-", "RF-", "ROTC-", "SEC-", "SFS-", "SHRP-", "SHWC-", "SIM-", "SOD-", "SOE-", "SON-", "SOPH-", "TUCC-", "UABPD-", "UHP-", "UTH-", "VPDA-", "VPED-", "VPIT-", "VPR-", "VPSA-", "WEBB-", "WHSE-"],
         "Surg": ["SURG"],
