@@ -9,7 +9,10 @@ body {
     justify-content: center;
     background-color: #f4f4f4; /* Light grey background */
 }
-
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
 header, footer {
     background-color: #333;
     color: white;
