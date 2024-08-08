@@ -86,6 +86,7 @@ function handleSearch() {
                 showAndHighlight(department, 'contact-table', searchTerm);
                 const buttonName = getButtonNameByDepartment(department); 
                 displaySearchResult(buttonName, 'Contact Information');
+                updateTableTitle(buttonName, 'Contact Information'); // Update the h2 title
                 foundMatch = true;
             }
         });
@@ -98,6 +99,7 @@ function handleSearch() {
                     showAndHighlight(category, 'naming-convention-table', searchTerm, index);
                     const buttonName = getButtonNameByCategory(category);
                     displaySearchResult(buttonName, 'Naming Convention');
+                    updateTableTitle(buttonName, 'Naming Convention'); // Update the h2 title
                     foundMatch = true;
                 }
             });
@@ -107,6 +109,7 @@ function handleSearch() {
     if (!foundMatch) {
         alert('No matches found.');
         document.getElementById('search-result').textContent = ''; // Clear previous search result if no match is found
+        updateTableTitle('', ''); // Clear the h2 title if no match
     }
 }
 
@@ -186,3 +189,7 @@ function getButtonNameByCategory(category) {
     return categoryMap[category] || category;
 }
 
+function updateTableTitle(buttonName, tableType) {
+    const titleElement = document.getElementById('current-table-name');
+    titleElement.textContent = `Current Table: ${buttonName} - ${tableType}`;
+}
