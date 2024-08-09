@@ -83,9 +83,9 @@ table td {
     font-size: 13px;
 }
 
-table td:nth-child(even) {
+/* table td:nth-child(even) {
     background-color: #f8f9fa; /* Slightly lighter grey for even cells */
-}
+} */
 #department-contact-table td{
 text-align: left;
 }
