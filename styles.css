@@ -10,7 +10,7 @@ body {
     background-color: #f4f4f4; /* Light grey background */
 }
 .highlight {
-    background-color: yellow;
+    background-color: yellow!important;
     font-weight: bold;
 }
 header, footer {
