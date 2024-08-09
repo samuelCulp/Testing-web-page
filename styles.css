@@ -83,9 +83,10 @@ table td {
     font-size: 13px;
 }
 
-/* table td:nth-child(even) {
-    background-color: #f8f9fa; /* Slightly lighter grey for even cells */
-} */
+table td:nth-child(even) {
+/*     background-color: #f8f9fa; /* Slightly lighter grey for even cells */ */
+    background-image: linear-gradient(to right, #f8f9fa, #f8f9fa);
+}
 #department-contact-table td{
 text-align: left;
 }
