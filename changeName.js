@@ -132,19 +132,19 @@ function showAndHighlight(categoryOrDepartment, tableType, searchTerm, nameIndex
     }, 100); // Timeout to allow table to update
 }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////
-document.addEventListener('DOMContentLoaded', function() {
-    const tableRows = document.querySelectorAll('table tr');
+// //////////////////////////////////////////////////////////////////////////////////////////////////
+// document.addEventListener('DOMContentLoaded', function() {
+//     const tableRows = document.querySelectorAll('table tr');
     
-    tableRows.forEach(row => {
-        const cells = row.querySelectorAll('td');
-        cells.forEach((cell, index) => {
-            if ((index + 1) % 2 === 0) {
-                cell.style.backgroundColor = '#f8f9fa'; // Slightly lighter grey for even cells
-            }
-        });
-    });
-});
+//     tableRows.forEach(row => {
+//         const cells = row.querySelectorAll('td');
+//         cells.forEach((cell, index) => {
+//             if ((index + 1) % 2 === 0) {
+//                 cell.style.backgroundColor = '#f8f9fa'; // Slightly lighter grey for even cells
+//             }
+//         });
+//     });
+// });
 
 
 function highlightNamingConventionCell(nameIndex) {
